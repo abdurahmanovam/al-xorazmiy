@@ -1,0 +1,123 @@
+body{
+    max-width: 1140px;
+    
+    margin: 0 auto;
+    padding: 0;
+    background-color: #3f72af;
+    color: white;
+    
+    
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+.navbar{
+    background-color: #112d4e;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #3f72af;
+}
+main{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+    align-items: center;
+    text-align: center;
+
+}
+.image{
+    width: 400px;
+
+}
+.header h1{
+    font-size: 4rem;
+}
+.header p{
+    font-size: 2rem;
+}
+hr{
+    width: 50%;
+    border: 1px solid white;
+}
+#about{
+    text-align: center;
+    padding: 100px 0;
+}
+#about h2{
+    font-size: 3rem;
+}
+#news{
+    text-align: center;
+    padding: 100px 0;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.card:hover{
+    scale: 1.1;
+    transition: all 0.5s ease-in-out;
+}
+.cards{
+    background-color: #112d4e;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.cards img{
+    border-radius: 1rem;
+    width: 300px;
+    height: 300px;
+}
+button{
+    background-color: #3f72af;
+    border: none;
+    width: 100%;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+button:hover{
+    background-color: #112ca1;
+}
+footer{
+    text-align: center;
+    border: 2px dashed #112d4e;
+    max-width: 500px;
+    margin: 0 auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+input{
+    width: 100%;
+    padding:1rem 0 ;
+    border-radius: 2rem;
+}
+footer{
+    background-color: #112d4e;
+    text-align: center;
+}
+a:hover {
+    color: darkblue;
+    transition: all 0.2s;
+}
+button:hover {
+    background-color: azure;
+    color: #112ca1;
+    transition: all 0.2s;
+}
